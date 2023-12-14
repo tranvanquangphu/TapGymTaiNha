@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GymAppă"
+        tools:targetApi="31">
+        <activity
+            android:name=".fragment_signin"
+            android:exported="false" />
+        <activity
+            android:name=".activity_toi_dieukhoan"
+            android:exported="false" />
+        <activity
+            android:name=".trangchu"
+            android:exported="false" />
+        <activity
+            android:name=".toi_practice_hengio"
+            android:exported="false" />
+        <activity
+            android:name=".toi_practice_amthanh"
+            android:exported="false" />
+        <activity
+            android:name=".lichtrinh2"
+            android:exported="false" />
+        <activity
+            android:name=".toi_suppost"
+            android:exported="false" />
+        <activity
+            android:name=".toi_language"
+            android:exported="false" />
+        <activity
+            android:name=".toi_practice"
+            android:exported="false" />
+        <activity
+            android:name=".toi_setting"
+            android:exported="false" />
+        <activity
+            android:name=".toi_favorite"
+            android:exported="false" />
+        <activity
+            android:name=".toi_hoso"
+            android:exported="false" />
+        <activity
+            android:name=".toi"
+            android:exported="false" />
+        <activity
+            android:name=".trangchu1"
+            android:exported="false" />
+        <activity
+            android:name=".trangchu_2"
+            android:exported="false" />
+        <activity
+            android:name=".trangchu4"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_discover2"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_discover1"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_lichtrinh"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_discover"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_trangchu3"
+            android:exported="false" />
+        <activity
+            android:name=".trangchu5"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_trangpt1"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_trangtt"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_trangtt2"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_tapnguc"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_trangttxoay"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_trangttxoay2"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_tapnguccon"
+            android:exported="false" />
+        <activity
+            android:name=".thongtinnhom"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

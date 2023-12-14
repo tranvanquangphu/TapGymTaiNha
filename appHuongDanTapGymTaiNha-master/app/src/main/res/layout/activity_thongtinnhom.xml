@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".thongtinnhom"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/thongtinNhom"
+        android:layout_width="433dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="532dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingLeft="50dp"
+        android:text="Trương Việt Hoàng - 21115053120314"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/thongtinNhom2"
+        android:layout_width="433dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="464dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingLeft="50dp"
+        android:text="Trần Văn Đạt - 21115053120308"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/thongtinNhom3"
+        android:layout_width="433dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="404dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingLeft="50dp"
+        android:text="Trần Văn Quang Phú - 21115053120340"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/thongtinNhom4"
+        android:layout_width="433dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="344dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingLeft="50dp"
+        android:text="Trương Hồng Anh  - 21115053120303"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/thongtinNhom5"
+        android:layout_width="433dp"
+        android:layout_height="95dp"
+        android:layout_marginBottom="600dp"
+        android:layout_weight="1"
+        android:background="@color/black"
+        android:gravity="center"
+        android:paddingLeft="50dp"
+        android:text="NHÓM 9"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_rectangle"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Tiếng Việt"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintVertical_bias="0.134" />
+
+    <TextView
+        android:id="@+id/tv_home"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:drawableTop="@drawable/home"
+        android:gravity="center"
+        android:text="Trang chủ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_discover"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:drawableTop="@drawable/discover"
+        android:gravity="center"
+        android:text="Khám phá"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_home" />
+
+    <TextView
+        android:id="@+id/tv_pt"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:drawableTop="@drawable/pt"
+        android:gravity="center"
+        android:text="PT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_discover" />
+
+    <TextView
+        android:id="@+id/tv_lichtrinh"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:drawableTop="@drawable/lichtrinh"
+        android:gravity="center"
+        android:text="Lịch Trình"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_pt" />
+
+    <TextView
+        android:id="@+id/tv_toi"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:drawableTop="@drawable/toi1"
+        android:gravity="center"
+        android:text="Tôi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_lichtrinh"
+        android:textColor="#0048FF"
+        />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="264dp"
+        android:background="@drawable/button_red"
+        android:text="Trở lại"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

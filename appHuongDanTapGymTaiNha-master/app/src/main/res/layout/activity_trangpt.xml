@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_trangpt1"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="286dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Trang PT"
+        android:textColor="#B22222"
+        android:textSize="50dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="328dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="00dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Tập toàn thân"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <ImageView
+        android:id="@+id/imageToanThan"
+        android:layout_width="527dp"
+        android:layout_height="270dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/pt1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="328dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="00dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Bài Tập Cho Người Mới"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <ImageView
+        android:id="@+id/imageNguoiMoi"
+        android:layout_width="358dp"
+        android:layout_height="224dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/pt2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:drawableTop="@drawable/home"
+        android:gravity="center"
+        android:text="Trang chủ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_khampha"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:drawableTop="@drawable/discover"
+        android:gravity="center"
+        android:text="Khám phá"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView47" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:drawableTop="@drawable/content_pt"
+        android:gravity="center"
+        android:textColor="#0048FF"
+        android:text="PT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_khampha" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:drawableTop="@drawable/lichtrinh"
+        android:gravity="center"
+        android:text="Lịch Trình"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView50" />
+
+    <TextView
+        android:id="@+id/idtoi"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:drawableTop="@drawable/toi"
+        android:gravity="center"
+        android:text="Tôi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView51" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

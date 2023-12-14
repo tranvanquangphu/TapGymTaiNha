@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lichtrinh2"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Thử thách hằng ngày"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Xu hướng"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView79"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Thói quen"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toEndOf="@+id/textView80"
+        app:layout_constraintTop_toBottomOf="@+id/textView79"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Ăn uống lành mạnh"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/textView81"
+        app:layout_constraintTop_toBottomOf="@+id/textView79"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/lichtrinh_candy"
+        android:drawableTop="@drawable/baseline_fastfood_24"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Ngày không đường"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView80"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="313dp"
+        android:layout_height="55dp"
+        android:text="Một ngày để ngăn ngừa tăng cân
+và bệnh tim mạch"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView82"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintStart_toStartOf="@+id/textView82"
+        app:layout_constraintTop_toTopOf="@+id/textView82"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_white"
+        android:text="Tham gia!"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="@+id/textView82"
+        app:layout_constraintEnd_toEndOf="@+id/textView82"
+        app:layout_constraintStart_toStartOf="@+id/textView82"
+        app:layout_constraintTop_toBottomOf="@+id/textView83"
+        app:layout_constraintVertical_bias="0.523" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/lichtrinh_sleep"
+        android:drawableTop="@drawable/bed"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Đi ngủ sớm"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView82"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="313dp"
+        android:layout_height="55dp"
+        android:text="Hãy đi ngủ sớm , hồi phụ năng lượng
+của bạn"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView84"
+        app:layout_constraintEnd_toEndOf="@+id/textView84"
+        app:layout_constraintHorizontal_bias="0.327"
+        app:layout_constraintStart_toStartOf="@+id/textView84"
+        app:layout_constraintTop_toTopOf="@+id/textView84"
+        app:layout_constraintVertical_bias="0.527" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_white"
+        android:text="Tham gia!"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="@+id/textView84"
+        app:layout_constraintEnd_toEndOf="@+id/textView84"
+        app:layout_constraintStart_toStartOf="@+id/textView84"
+        app:layout_constraintTop_toBottomOf="@+id/textView85" />
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/lichtrinh_vegetable"
+        android:drawableTop="@drawable/fruit"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Ăn rau xanh và trái cây"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView84"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="313dp"
+        android:layout_height="55dp"
+        android:text="Một ngày để ngăn ngừa tăng cân
+và bệnh tim mạch"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView86"
+        app:layout_constraintEnd_toEndOf="@+id/textView86"
+        app:layout_constraintStart_toStartOf="@+id/textView86"
+        app:layout_constraintTop_toTopOf="@+id/button4"
+        app:layout_constraintVertical_bias="0.712" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_white"
+        android:text="Tham gia!"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView86"
+        app:layout_constraintStart_toStartOf="@+id/textView86"
+        app:layout_constraintTop_toBottomOf="@+id/textView87" />
+
+    <Button
+        android:id="@+id/btn_backlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_blue"
+        android:text="Đóng"
+        app:backgroundTint="@null"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView86"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

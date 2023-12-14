@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_tapnguccon"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:drawableTop="@drawable/home"
+        android:gravity="center"
+        android:text="Trang chủ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_khampha"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:drawableTop="@drawable/discover"
+        android:gravity="center"
+        android:text="Khám phá"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView47" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:drawableTop="@drawable/content_pt"
+        android:gravity="center"
+        android:textColor="#0048FF"
+        android:text="PT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_khampha" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:drawableTop="@drawable/lichtrinh"
+        android:gravity="center"
+        android:text="Lịch Trình"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView50" />
+
+    <TextView
+        android:id="@+id/tv_toi"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:drawableTop="@drawable/toi"
+        android:gravity="center"
+        android:text="Tôi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView51" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="4dp"
+        tools:ignore="MissingConstraints">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="479dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="36dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="right"
+        android:text="Động tác hít đất"
+        android:textColor="#FF0000"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.273" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="378dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="left"
+        android:text="1.Chống thẳng 2 cánh tay, cách nhau bằng vai."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="378dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="left"
+        android:text="2.Hít vào, siết cơ bụng. Dần hạ khuỷu tay xuống để đưa ngực về phía mặt sàn."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="378dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="left"
+        android:text="3.Tạm dừng 1 giây ở tư thế hạ xuống, cằm của bạn có thể chạm đất nhẹ."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.509" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="378dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="left"
+        android:text="4.Thở ra và dùng lực cánh tay đẩy cơ thể từ từ trở lại vị trí ban đầu."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="378dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="12dp"
+        android:background="#7CFC00"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Nhập số động tác đả thực hiện"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.696" />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_update"
+        android:hint="Nhập số động tác"
+        android:paddingLeft="20dp"
+        android:textColor="#FF0353"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView59"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_red"
+        android:text="Nhập"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.171" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

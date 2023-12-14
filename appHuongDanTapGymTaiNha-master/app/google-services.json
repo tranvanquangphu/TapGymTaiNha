@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "982888794616",
+    "firebase_url": "https://apptapgymtainha-default-rtdb.firebaseio.com",
+    "project_id": "apptapgymtainha",
+    "storage_bucket": "apptapgymtainha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982888794616:android:499044664008bd68ed6e0d",
+        "android_client_info": {
+          "package_name": "com.example.gymapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjzO8gfyUtIBA0hhsIxyNYcPRRoR_58ZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

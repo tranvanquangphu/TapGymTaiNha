@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/img_bt1"
+        android:layout_width="417dp"
+        android:layout_height="120dp"
+        android:src="@drawable/bt1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/arrow_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/baseline_arrow_back_24"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_bt1"
+        app:layout_constraintEnd_toEndOf="@+id/img_bt1"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="@+id/img_bt1"
+        app:layout_constraintTop_toTopOf="@+id/img_bt1"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <TextView
+        android:id="@+id/textView_phut_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="20 PHÚT - 16 BÀI TẬP"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_bt1" />
+
+    <TextView
+        android:id="@+id/textView_buoi_tuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="4 Buổi / Tuần"
+        android:textColor="#a45681"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toEndOf="@+id/textView_phut_bt"
+        app:layout_constraintTop_toBottomOf="@+id/img_bt1" />
+
+    <TextView
+        android:id="@+id/menu_bar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/menu_trangchu"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_phut_bt" />
+
+    <ImageView
+        android:id="@+id/img_batnhay"
+        android:layout_width="92dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/batnhay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toEndOf="@+id/menu_bar1"
+        app:layout_constraintTop_toBottomOf="@+id/textView_phut_bt" />
+
+    <TextView
+        android:id="@+id/textView_batnhay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Bật nhảy"
+        android:textColor="#e80303"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.309"
+        app:layout_constraintStart_toEndOf="@+id/img_batnhay"
+        app:layout_constraintTop_toBottomOf="@+id/textView_buoi_tuan" />
+
+    <TextView
+        android:id="@+id/time_batnhay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="00:30"
+        android:textColor="#bba9a9"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.261"
+        app:layout_constraintStart_toEndOf="@+id/img_batnhay"
+        app:layout_constraintTop_toBottomOf="@+id/textView_batnhay" />
+
+    <TextView
+        android:id="@+id/menu_bar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/menu_trangchu"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_bar1" />
+
+    <ImageView
+        android:id="@+id/img_tapcobung"
+        android:layout_width="92dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/tapcobung"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toEndOf="@+id/menu_bar2"
+        app:layout_constraintTop_toBottomOf="@+id/img_batnhay" />
+
+    <TextView
+        android:id="@+id/textView_tapcobung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Tập cơ bụng"
+        android:textColor="#e80303"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toEndOf="@+id/img_tapcobung"
+        app:layout_constraintTop_toBottomOf="@+id/time_batnhay" />
+
+    <TextView
+        android:id="@+id/perform_tapcobung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="x16"
+        android:textColor="#bba9a9"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toEndOf="@+id/img_tapcobung"
+        app:layout_constraintTop_toBottomOf="@+id/textView_tapcobung" />
+
+    <TextView
+        android:id="@+id/time_tapcobung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="00:32"
+        android:textColor="#bba9a9"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintStart_toEndOf="@+id/perform_tapcobung"
+        app:layout_constraintTop_toBottomOf="@+id/textView_tapcobung" />
+
+    <TextView
+        android:id="@+id/menu_bar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/menu_trangchu"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_bar2" />
+
+    <ImageView
+        android:id="@+id/img_gapbungcheo"
+        android:layout_width="92dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/gapbungcheo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toEndOf="@+id/menu_bar3"
+        app:layout_constraintTop_toBottomOf="@+id/img_tapcobung" />
+
+    <TextView
+        android:id="@+id/textView_gapbungcheo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Gập bụng chéo"
+        android:textColor="#e80303"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toEndOf="@+id/img_gapbungcheo"
+        app:layout_constraintTop_toBottomOf="@+id/perform_tapcobung" />
+
+    <TextView
+        android:id="@+id/perform_gapbungcheo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="x20"
+        android:textColor="#bba9a9"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintStart_toEndOf="@+id/img_gapbungcheo"
+        app:layout_constraintTop_toBottomOf="@+id/textView_gapbungcheo" />
+
+    <TextView
+        android:id="@+id/time_gapbungcheo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="01:00"
+        android:textColor="#bba9a9"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintStart_toEndOf="@+id/perform_gapbungcheo"
+        app:layout_constraintTop_toBottomOf="@+id/textView_gapbungcheo" />
+
+    <TextView
+        android:id="@+id/menu_bar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/menu_trangchu"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_bar3" />
+
+    <ImageView
+        android:id="@+id/img_leonui"
+        android:layout_width="92dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/leonui"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toEndOf="@+id/menu_bar4"
+        app:layout_constraintTop_toBottomOf="@+id/img_gapbungcheo" />
+
+    <TextView
+        android:id="@+id/textView_leonui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Leo núi"
+        android:textColor="#e80303"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintStart_toEndOf="@+id/img_leonui"
+        app:layout_constraintTop_toBottomOf="@+id/perform_gapbungcheo" />
+
+    <TextView
+        android:id="@+id/perform_leonui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="x20"
+        android:textColor="#bba9a9"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toEndOf="@+id/img_leonui"
+        app:layout_constraintTop_toBottomOf="@+id/textView_leonui" />
+
+    <TextView
+        android:id="@+id/time_leonui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="01:20"
+
+        android:textColor="#bba9a9"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toEndOf="@+id/perform_leonui"
+        app:layout_constraintTop_toBottomOf="@+id/textView_leonui" />
+
+    <Button
+        android:id="@+id/btn_batdau"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Bắt đầu"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_blue"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perform_leonui"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

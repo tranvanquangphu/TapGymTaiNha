@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_trangttxoay2"
+    android:background="@drawable/ttxoay"
+ >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="165dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="4dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Tập Tay Sau"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="165dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="80dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Tập Cẳng Chân"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="194dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="120dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Tập Lưng"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.354" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="165dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="192dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Tập Mông"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="165dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="248dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Tập Vai Sau"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202" />
+
+    <ImageView
+        android:id="@+id/xoay"
+        android:layout_width="114dp"
+        android:layout_height="113dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/xoay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
